@@ -1,0 +1,144 @@
+* {
+	font-family: 'Switzer', sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-image: url(playa.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.all {
+	background-color: beige;
+	height: 70%;
+	width: 72%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.derecha {
+	height: 100%;
+	margin-left: 5%;
+}
+
+#permanganato {
+	height: 100%;
+	width: 100%;
+}
+
+.dossier {
+	position: relative;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
+	height: 100%;
+	margin-left: 5%;
+
+}
+
+.titulongo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5vh;
+}
+
+.logo {
+	height: 6vh;
+
+}
+
+.contenedor {
+	margin-top: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.US {
+	margin-top: 12%;
+}
+
+.login-title {
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.botn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: large;
+}
+
+input {
+	width: 14rem;
+	border-bottom: 0.1rem solid rgb(40, 33, 33);
+	padding-bottom: 0.5rem;
+	outline: none;
+	font-weight: 400;
+	background-color: transparent;
+	font-style: normal;
+	font-size: 0.7rem;
+	padding-left: 30px;
+	margin-bottom: 10px;
+}
+
+input::placeholder {
+	color: rgb(104, 102, 102);
+}
+
+
+.fp {
+	text-align: right;
+	margin-bottom: 2rem;
+	font-weight: 400;
+	font-size: 15px;
+	padding-right: 25px;
+	color: rgb(94, 94, 94);
+	margin: 0.3rem;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(94, 94, 94) !important;
+}
+
+
+button {
+	outline: none !important;
+	border: none;
+	background: 0 0;
+	font-size: 22px;
+}
+
+button:hover {
+	cursor: pointer;
+}
+
+.formation {
+	margin-top: 20px;
+}
+#code{
+	width: 20%;
+	top: 50%;
+	transform: translateY(-10%);
+	padding-right: 2px;
+	vertical-align: middle;
+}

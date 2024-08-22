@@ -1,0 +1,101 @@
+*{font-family: 'Clash Display', sans-serif;}
+
+body{
+    background-image: url(imagen\ de\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#fondo{
+    background-color: aliceblue;
+    width: 70vh;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#Username {
+border: none;
+border-bottom: 2px solid black;
+background-color: transparent;
+}
+#Password{
+border: none;
+border-bottom: 2px solid black;
+background-color: transparent;
+}
+div{
+    padding: 10px;
+}
+#Button{
+    outline: none !important;
+	border: none;
+	background: 0 0;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: flex-start;
+    align-items: center; }
+.image {
+
+    width: 20px;
+}
+a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+button {
+    --primary-color: #645bff;
+    --secondary-color: #fff;
+    --hover-color: #111;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold; 
+text-decoration: none;}
+#icons {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+#icons a 
+{
+color: #645bff;
+text-decoration: none;
+
+}
+.Sign-Up{ 
+    color: #fff;
+    text-decoration: none;
+}
+.z{
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: center;
+}
+
+.uwu{
+    color: #111 !important;
+}
